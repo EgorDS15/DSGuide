@@ -18,8 +18,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
 
         val anima = findViewById<LottieAnimationView>(R.id.logoSplash)
-
-
     }
 }
 
