@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DS Guide</string>
+    <string name="splash_screen_title">
+        <font fgcolor='#ffffff'>
+                Data Science Guide
+        </font>
+    </string>
+
+</resources>
