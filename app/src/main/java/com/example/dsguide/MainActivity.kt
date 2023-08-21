@@ -14,11 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         val animLogo = findViewById<LottieAnimationView>(R.id.logoSplash)
 
-//        val randomIntent = Intent(this, Splash::class.java)
-//        startActivity(randomIntent)
-
         Handler().postDelayed({
-            val intent = Intent(this@MainActivity, Splash::class.java)
+            val intent = Intent(this@MainActivity, MainScreen::class.java)
             startActivity(intent)
         }, 3000)
     }

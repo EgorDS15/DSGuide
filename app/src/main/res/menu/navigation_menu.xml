@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view"
+    >
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/header_title"
+        />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/splash_screen_title"
+            />
+
+        <item
+            android:id="@+id/nav_share"
+            android:title="@string/header_text"
+            />
+
+        <item
+            android:id="@+id/nav_about"
+            android:title="@string/favourites_title"
+            />
+
+        <item
+            android:id="@+id/nav_1"
+            android:title="@string/inbox_title"
+            />
+
+        <item
+            android:id="@+id/nav_2"
+            android:title="@string/mail_subheader_title"
+            />
+    </group>
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/outbox_title"/>
+        </menu>
+    </item>
+
+</menu>
+
+<!--<item-->
+<!--android:id="@+id/main_item"-->
+<!--android:title="@string/mail_subheader_title">-->
+<!--<menu>-->
+<!--    <item-->
+<!--        android:id="@+id/inbox_item"-->
+<!--        android:title="@string/inbox_title"-->
+<!--        android:checkable="true"/>-->
+<!--    <item-->
+<!--        android:id="@+id/outbox_item"-->
+<!--        android:title="@string/outbox_title"-->
+<!--        android:checkable="true"/>-->
+<!--    <item-->
+<!--        android:id="@+id/favourites_item"-->
+<!--        android:title="@string/favourites_title"-->
+<!--        android:checkable="true"/>-->
+<!--</menu>-->
+<!--</item>-->

@@ -3,9 +3,9 @@ package com.example.dsguide
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class Splash : AppCompatActivity() {
+class MainScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash)
+        setContentView(R.layout.activity_mainscreen)
     }
 }
