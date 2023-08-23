@@ -6,34 +6,31 @@
 
     <group
         android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_home"
-            android:title="@string/header_title"
-        />
+
 
         <item
             android:id="@+id/nav_settings"
-            android:title="@string/splash_screen_title"
+            android:title="@string/math_basic"
             />
 
         <item
             android:id="@+id/nav_share"
-            android:title="@string/header_text"
+            android:title="@string/linera_algebra"
             />
 
         <item
             android:id="@+id/nav_about"
-            android:title="@string/favourites_title"
+            android:title="@string/statistic"
             />
 
         <item
             android:id="@+id/nav_1"
-            android:title="@string/inbox_title"
+            android:title="@string/machine_learning"
             />
 
         <item
             android:id="@+id/nav_2"
-            android:title="@string/mail_subheader_title"
+            android:title="@string/deep_learning"
             />
     </group>
 
@@ -43,7 +40,7 @@
         <menu>
             <item
                 android:id="@+id/nav_logout"
-                android:title="@string/outbox_title"/>
+                android:title="@string/about"/>
         </menu>
     </item>
 

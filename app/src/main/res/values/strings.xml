@@ -6,13 +6,13 @@
         </font>
     </string>
 
-    <string name="mail_subheader_title">mail_subheader_title</string>
-    <string name="inbox_title">inbox_title</string>
-    <string name="outbox_title">outbox_title</string>
-    <string name="favourites_title">favourites_title</string>
-    <string name="header_title">header_title</string>
-    <string name="header_text">header_text</string>
-
-
+    <string name="menu_header">Data Science Guide</string>
+    <string name="statistic">Статистика</string>
+    <string name="linera_algebra">Линейная алгебра</string>
+    <string name="math_basic">Основы математики</string>
+    <string name="machine_learning">Машинное обучение</string>
+    <string name="deep_learning">Data Science Guide</string>
+    <string name="menu_description">Наука о данных на пальцах</string>
+    <string name="about">О нас</string>
 
 </resources>

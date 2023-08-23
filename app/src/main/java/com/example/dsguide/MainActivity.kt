@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val animLogo = findViewById<LottieAnimationView>(R.id.logoSplash)
+//        val animLogo = findViewById<LottieAnimationView>(R.id.logoSplash)
 
         Handler().postDelayed({
             val intent = Intent(this@MainActivity, MainScreen::class.java)
